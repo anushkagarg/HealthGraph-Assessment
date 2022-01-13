@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.health.tests.TestScript">
+        <methods>
+          <include name="testOtherTabHandle"/>
+          <include name="beforeClass"/>
+          <include name="testPropertySelection"/>
+          <include name="checkDescription"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.health.tests.TestScript -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
